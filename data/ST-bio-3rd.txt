@@ -1,0 +1,4 @@
+Sander Tonkens is a first-year Ph.D. student in Mechanical and Aerospace Engineering at UC San Diego, advised by Prof. sylvia Herbert. Prior to joining UC San Diego, Sander received an M.S. from Stanford University and a B.Sc. from EPFL, in Lausanne, Switzerland (both in Mechanical Engineering). During his masters, Sander's research focused on reduced order control for soft robotics, advised by Prof. Marco Pavone. Sander is a recipient of the Netherlands-America Foundation Graduate Fellowship and is a Fulbright Graduate Scholar.
+
+Sander's research interests lie at the intersection of control theory, machine learning, and robotics. In particular, his current research focuses on providing system-level safety assurances for learning-based systems that adapt readily to changes in the problem setup.
+
