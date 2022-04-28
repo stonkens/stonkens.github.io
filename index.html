@@ -85,8 +85,52 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr onmouseout="CBF_HJR_stop()" onmouseover="CBF_HJR_start()">
+                <td style="padding:1px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='cbf_hjr_video'><video width=100% height=100% muted autoplay loop>
+                        <source src="images/cbf_hjr.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <br>
+                    <div class="three" id='cbf_hjr_image'><img src='images/cbf_hjr.png' width="100%"></div>
+                  </div>
+                  <script type="text/javascript">
+                    function CBF_HJR_start() {
+                      document.getElementById('cbf_hjr_video').style.opacity = "1";
+                      document.getElementById('cbf_hjr_image').style.opacity = "0";
+                    }
 
+                    function CBF_HJR_stop() {
+                      document.getElementById('cbf_hjr_video').style.opacity = "0";
+                      document.getElementById('cbf_hjr_image').style.opacity = "1";
+                    }
+                    CBF_HJR_stop()
+                  </script>
+                </td>
+                <td style="padding:5px;width:75%;vertical-align:middle">
+                  <papertitle>Refining Control Barrier Functions using Hamilton-Jacobi Reachability</papertitle>
+                  <br>
+                  <strong>Sander Tonkens</strong>,
+                  <a href="http://sylviaherbert.com/">Sylvia Herbert</a>
+                  <br>
+                  <em>IEEE / RSJ International Conference on Intelligent Robots & Systems</em>, 2022 (Submitted).
+                  <br>
+                  <p></p>
+                  <p><a href="https://arxiv.org/abs/2204.12507">[arxiv]</a> <a
+                      href="https://github.com/UCSD-SASLab/refineCBF">[code]</a> <a
+                      href="https://docs.google.com/presentation/d/1-jP0BiRR1zAtkiyjYnxG9_I9HRCBvmUK/edit?usp=sharing&ouid=103448266698486209414&rtpof=true&sd=true">[slides]</a>
+                    <a href="https://drive.google.com/file/d/1Ngu65kVwYyopacsaaoDCwxz7F7av9yYC/view?usp=sharing"> [1
+                      min video]</a>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
               <tr>
                 <td style="padding:5px;padding-top:100px;width:25%;vertical-align:bottom">
                   <div class="one">
@@ -115,7 +159,7 @@
                   <a href="https://www.mmc.nl/specialisten/klaver-drs-p-a-g/">Paul de Klaver</a>,
                   <a href="https://research.tue.nl/en/persons/mauro-ru-salazar-villalon/">Mauro Salazar</a>
                   <br>
-                  <em>European Control Conference</em> (<a href="https://ecc22.euca-ecc.org/">ECC</a>), 2022. (In Press)
+                  <em>European Control Conference (<a href="https://ecc22.euca-ecc.org/">ECC</a>)</em>, 2022 (In Press).
                   <br>
                   <p></p>
                   <p><a href="https://arxiv.org/abs/2112.11908">[arxiv]</a> <a
@@ -124,11 +168,10 @@
               </tr>
             </tbody>
           </table>
+
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
-
-
               <tr onmouseout="SROC_stop()" onmouseover="SROC_start()">
                 <td style="padding:5px;width:25%;vertical-align:middle">
                   <div class="one">
@@ -157,15 +200,13 @@
                   <a href="https://web.stanford.edu/~pavone/">Marco Pavone</a>
                   <br>
                   <em>IEEE International Conference on Robotics and Automation (<a
-                      href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/">ICRA</a>)</em>, 2021
+                      href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/">ICRA</a>)</em>, 2021.
                   <br>
                   <p></p>
                   <p><a href="https://arxiv.org/abs/2011.02092/">[arxiv]</a> <a
                       href="https://github.com/StanfordASL/soft-robot-control/">[code]</a></p>
                 </td>
               </tr>
-
-
             </tbody>
           </table>
 
@@ -183,7 +224,7 @@
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/Stanford-icon.png"
                     width="100"></td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
+                <td style="padding:0px;width:75%;vertical-align:middle">
                   <strong>AA203: Optimal and Learning-based Control</strong>
                   <br>
                   <em>Stanford University</em>
@@ -196,7 +237,7 @@
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/epfl-logo.png" width="100">
                 </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
+                <td style="padding:0px;width:75%;vertical-align:middle">
                   <strong>Analysis II, III & IV, Dynamics I, Physics I</strong>
                   <br>
                   <em>&Eacutecole Polytechnique F&eacuted&eacuterale de Lausanne</em>
@@ -228,7 +269,7 @@
       <tr>
         <td style="padding:20px;width:25%;vertical-align:middle"><a href="https://ucsd.edu"> <img
               src="images/ucsd-seal.svg" width="100"></a></td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
+        <td style="padding:0px;width:75%;vertical-align:middle">
           <strong>Doctor of Philosophy (Ph.D.) in Mechanical and Aerospace Engineering</strong>
           <br>
           <em>University of California, San Diego</em>
@@ -239,7 +280,7 @@
       <tr>
         <td style="padding:20px;width:25%;vertical-align:middle"><a href="https://stanford.edu"> <img
               src="images/Stanford-icon.png" width="100" </a></td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
+        <td style="padding:0px;width:75%;vertical-align:middle">
           <strong>Master of Science (M.S.) in Mechanical Engineering</strong>
           <br>
           <em>Stanford University</em>
@@ -250,7 +291,7 @@
       <tr>
         <td style="padding:20px;width:25%;vertical-align:middle"><a href="https://epfl.ch"> <img
               src="images/epfl-logo.png" width="100"></a></td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
+        <td style="padding:0px;width:75%;vertical-align:middle">
           <strong>Bachelor of Science (B.Sc.) in Mechanical Engineering</strong>
           <br>
           <em>&Eacutecole Polytechnique F&eacuted&eacuterale de Lausanne</em>
@@ -284,7 +325,7 @@
         <td>
           Credits to <a href="https://jonbarron.info" class="a_footer">Jon Barron</a> for the <a
             href="https://github.com/jonbarron/website" class="a_footer">great template</a>!
-          Last updated in February 2022.
+          Last updated in April 2022.
         </td>
       </tr>
     </tbody>
