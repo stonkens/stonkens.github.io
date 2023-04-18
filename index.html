@@ -31,7 +31,7 @@
                   <p style="text-align:center">
                     <name>Sander Tonkens</name>
                   </p>
-                  <p>I am a first year Ph.D. student at <a href="https://ucsd.edu">UC San Diego</a> advised by Prof. <a
+                  <p>I am a second year Ph.D. student at <a href="https://ucsd.edu">UC San Diego</a> advised by Prof. <a
                       href="http://sylviaherbert.com/">Sylvia Herbert</a>, where I am part of the <a
                       href="https://cri.ucsd.edu">Contextual Robotics Institute</a>.<br><br> Before moving to San Diego,
                     I did my M.S. at <a href="https://stanford.edu">Stanford University</a>, where I was advised by
@@ -43,7 +43,7 @@
                   </p>
                   <p style="text-align:center">
                     <a href="#contact">Email</a> &nbsp/&nbsp
-                    <a href="data/CV_Tonkens.pdf">CV (04/22)</a> &nbsp/&nbsp
+                    <a href="data/CV_Tonkens.pdf">CV (04/23)</a> &nbsp/&nbsp
                     <a href="data/ST-bio-3rd.txt">Bio (3rd)</a> &nbsp/&nbsp
                     <a href="https://scholar.google.com/citations?user=RcDqKtMAAAAJ&hl=en">Google Scholar</a>
                     &nbsp/&nbsp
@@ -64,8 +64,8 @@
                     My interests lies at the intersection of robotics, control theory, and machine learning.
                     Specifically, I am interested in two areas (i) leveraging ideas from <strong>robustness</strong> in
                     modular autonomy stacks to enable robots to <strong>generalize</strong> to novel environments and
-                    (ii) leveraging <strong>cognitive science</strong> insights on value of computation in robotics
-                    applications.
+                    (ii) providing <strong>probabilistic safety assurances</strong> for autonomous
+                    systems in cluttered environments leveraging <strong>uncertainty quantification</strong> methods.
                   </p>
                 </td>
               </tr>
@@ -84,6 +84,63 @@
 
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr onmouseout="HJ_patch_stop()" onmouseover="HJ_patch_start()">
+                <td style="padding:1px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='hj_patch_video'><video width=100% height=110% muted autoplay loop>
+                        <source src="images/hj_patch.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <br>
+                    <div class="three" id='hj_patch_image'><img src='images/hj_patch.png' width="110%"></div>
+                  </div>
+                  <script type="text/javascript">
+                    function HJ_patch_start() {
+                      // document.getElementById('hj_patch_video').style.opacity = "1";
+                      document.getElementById('hj_patch_image').style.opacity = "1";
+                    }
+
+                    function HJ_patch_stop() {
+                      // document.getElementById('hj_patch_video').style.opacity = "0";
+                      document.getElementById('hj_patch_image').style.opacity = "1";
+                    }
+                    HJ_patch_stop()
+                  </script>
+                </td>
+                <td style="padding:5px;width:75%;vertical-align:middle">
+                  <div class="publication-title bold">
+                    <a href="">Patching Neural Barrier Functions using Hamilton-Jacobi Reachability</a>
+                  </div>
+                  <!-- <br> -->
+                  <strong>Sander Tonkens</strong>,
+                  Alex Toofanian,
+                  Zhizhen Qin,
+                  <a href="https://scungao.github.io/">Sicun Gao</a>,
+                  <a href="http://sylviaherbert.com/">Sylvia Herbert</a>
+                  <br>
+                  <em>IEEE Conference on Decision and Control <a href="https://cdc2023.ieeecss.org">(CDC)</a></em>,
+                  2023
+                  (Submitted).
+
+                  <br>
+                  <p></p>
+                  <p>
+                    <a href="https://stonkens.github.io/hj-patch">[project page]</a>
+                    <!-- <a href="https://arxiv.org/abs/2204.12507">[arXiv]</a> -->
+                    <a href="https://github.com/UCSD-SASLab/HJ-Patch">[code]</a>
+                    <!-- <a -->
+                    <!-- href="https://docs.google.com/presentation/d/12mZXL_kqOx8c3UrsuMaC-Rw55VJLm8XP/edit?usp=sharing&ouid=103448266698486209414&rtpof=true&sd=true">[slides]</a> -->
+                    <!-- <a href="https://www.youtube.com/watch?v=dDWf1m1OCak"> [1 min video]</a> -->
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <table
+            style="width:100%;padding-top:50px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr onmouseout="CBF_HJR_stop()" onmouseover="CBF_HJR_start()">
                 <td style="padding:1px;width:25%;vertical-align:middle">
@@ -109,15 +166,20 @@
                   </script>
                 </td>
                 <td style="padding:5px;width:75%;vertical-align:middle">
-                  <papertitle>Refining Control Barrier Functions using Hamilton-Jacobi Reachability</papertitle>
-                  <br>
+                  <div class="publication-title bold">
+                    <a href="https://arxiv.org/abs/2204.12507">Refining Control Barrier Functions using Hamilton-Jacobi
+                      Reachability</a>
+                  </div>
+                  <!-- <br> -->
                   <strong>Sander Tonkens</strong>,
                   <a href="http://sylviaherbert.com/">Sylvia Herbert</a>
                   <br>
-		  <em>IEEE / RSJ International Conference on Intelligent Robots & Systems <a href="https://iros2022.org/">(IROS)</a></em>, 2022 (In Press).
-		  
-		  <br> <p></p>
-                  <p><a href="https://arxiv.org/abs/2204.12507">[arxiv]</a> <a
+                  <em>IEEE / RSJ International Conference on Intelligent Robots & Systems <a
+                      href="https://iros2022.org/">(IROS)</a></em>, 2022.
+
+                  <br>
+                  <p></p>
+                  <p><a href="https://arxiv.org/abs/2204.12507">[arXiv]</a> <a
                       href="https://github.com/UCSD-SASLab/refineCBF">[code]</a> <a
                       href="https://docs.google.com/presentation/d/12mZXL_kqOx8c3UrsuMaC-Rw55VJLm8XP/edit?usp=sharing&ouid=103448266698486209414&rtpof=true&sd=true">[slides]</a>
                     <a href="https://www.youtube.com/watch?v=dDWf1m1OCak"> [1
@@ -132,7 +194,7 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
-                <td style="padding:5px;padding-top:100px;width:25%;vertical-align:bottom">
+                <td style="padding:5px;padding-top:75px;width:25%;vertical-align:bottom">
                   <div class="one">
                     <!-- <div class="two" id='vaccine_image'><video  width=100% height=100% muted autoplay loop> -->
                     <!-- <source src="images/soft_robot.mp4" type="video/mp4">
@@ -152,9 +214,12 @@
               </script> -->
                 </td>
                 <td style="padding:5px;width:75%;vertical-align:middle">
-                  <papertitle>Optimizing Vaccine Allocation Strategies in Pandemic Outbreaks: An Optimal Control
-                    Approach</papertitle>
-                  <br>
+                  <div class="publication-title bold">
+                    <a href="https://arxiv.org/abs/2112.11908">Optimizing Vaccine Allocation Strategies in Pandemic
+                      Outbreaks: An Optimal Control
+                      Approach</a>
+                  </div>
+                  <!-- <br> -->
                   <strong>Sander Tonkens</strong>,
                   <a href="https://www.mmc.nl/specialisten/klaver-drs-p-a-g/">Paul de Klaver</a>,
                   <a href="https://research.tue.nl/en/persons/mauro-ru-salazar-villalon/">Mauro Salazar</a>
@@ -162,7 +227,7 @@
                   <em>European Control Conference (<a href="https://ecc22.euca-ecc.org/">ECC</a>)</em>, 2022.
                   <br>
                   <p></p>
-                  <p><a href="https://arxiv.org/abs/2112.11908">[arxiv]</a> <a
+                  <p><a href="https://arxiv.org/abs/2112.11908">[arXiv]</a> <a
                       href="https://gitlab.tue.nl/20200365/covid-vaccine-allocation/">[code]</a></p>
                 </td>
               </tr>
@@ -193,8 +258,12 @@
                   </script>
                 </td>
                 <td style="padding:5px;width:75%;vertical-align:middle">
-                  <papertitle>Soft Robot Optimal Control Via Reduced Order Finite Element Models</papertitle>
-                  <br>
+                  <div class="publication-title bold">
+                    <a href="https://arxiv.org/abs/2011.02092">Soft Robot Optimal Control Via Reduced Order Finite
+                      Element
+                      Models</a>
+                  </div>
+                  <!-- <br> -->
                   <strong>Sander Tonkens</strong>,
                   <a href="https://stanfordasl.github.io/people/joseph-lorenzetti/">Joe Lorenzetti</a>,
                   <a href="https://web.stanford.edu/~pavone/">Marco Pavone</a>
@@ -203,7 +272,7 @@
                       href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/">ICRA</a>)</em>, 2021.
                   <br>
                   <p></p>
-                  <p><a href="https://arxiv.org/abs/2011.02092/">[arxiv]</a> <a
+                  <p><a href="https://arxiv.org/abs/2011.02092/">[arXiv]</a> <a
                       href="https://github.com/StanfordASL/soft-robot-control/">[code]</a></p>
                 </td>
               </tr>
@@ -325,11 +394,18 @@
         <td>
           Credits to <a href="https://jonbarron.info" class="a_footer">Jon Barron</a> for the <a
             href="https://github.com/jonbarron/website" class="a_footer">great template</a>!
-          Last updated in April 2022.
+          Last updated in April 2023.
         </td>
       </tr>
     </tbody>
   </table>
 </body>
+
+<style>
+  .publication-title.bold a {
+    font-weight: bold;
+    color: rgb(5, 5, 124);
+  }
+</style>
 
 </html>
