@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book a Meeting - CareFull.ai</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Google Calendar Appointment Scheduling CSS and JS -->
+  <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+  <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+  <style>
+    .navbar-item {
+      color: black;
+      text-decoration: none;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .navbar-item:hover {
+      color: #808080;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h2 style="text-align:center;">Schedule a Meeting with Lizzie, Nikhil and Sander</h2>
+  <p style="text-align:center; margin-top:20px;">
+    We're happy to meet in person, over Zoom (link provided), or by phone. Please select a time that works for you.
+  </p>
+  <div style="display:flex; justify-content:center; gap:50px; margin-top:40px;">
+
+    <!-- Second Scheduling Button -->
+    <script>
+        (function() {
+            var target = document.currentScript;
+            window.addEventListener('load', function() {
+            calendar.schedulingButton.load({
+                url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2xAIUqgu4bI-TRHkFqjosCTuZ-6a3gujqwm839P3iunH2IlD8l6LdOKHeujwlSuRhMhOGHHvUd?gv=true',
+                color: '#039BE5',
+                label: '30 minutes meeting',
+                target,
+            });
+            });
+        })();
+        </script>
+    <!-- First Scheduling Button -->
+    <script>
+    (function() {
+      var target = document.currentScript;
+      window.addEventListener('load', function() {
+        calendar.schedulingButton.load({
+          url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0T3YJS7EkWTes-a7TxhFQxVrywBxpo3aoPXDKtv1rF3AvOBAWWzw10b9uNoojRDyNflbYZXrw8?gv=true',
+          color: '#039BE5',
+          label: '60 minutes meeting',
+          target,
+        });
+      });
+    })();
+    </script>
+    </div>
+    <p style="text-align:center; margin-top:20px;">
+    If none of these times are suitable, let's meet 1-1 instead, here is my personal calendar: <a href="../meet-sander.html">Sander's Calendar</a>
+    </p>
+    <div style="display:flex; justify-content:center; gap:50px; margin-top:40px;">
+    
+
+
+  </div>
+
+</body>
+
+</html>
