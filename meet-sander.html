@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book a Meeting - Sander Tonkens</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+
+  <!-- Google Calendar Appointment Scheduling CSS and JS -->
+  <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+  <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+</head>
+
+<body>
+  <h2 style="text-align:center;">Schedule a Meeting with Sander</h2>
+  <p style="text-align:center; margin-top:20px;">
+    Happy to meet in person, over Zoom (link provided), or by phone. Please select a time that works for you.
+  </p>
+  <div style="display:flex; justify-content:center; gap:50px; margin-top:40px;">
+    <!-- First Scheduling Button -->
+    <script>
+    (function() {
+      var target = document.currentScript;
+      window.addEventListener('load', function() {
+        calendar.schedulingButton.load({
+          url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3OEnCHgsIV6UvWI-mFOYWyqyCjbRO7B1VOI4OgW68fsmpQxriAp1cg_Dt7EoY_ghnaRYkbgTBC?gv=true',
+          color: '#039BE5',
+          label: '60 minutes meeting',
+          target,
+        });
+      });
+    })();
+    </script>
+
+    <!-- Second Scheduling Button -->
+    <script>
+    (function() {
+      var target = document.currentScript;
+      window.addEventListener('load', function() {
+        calendar.schedulingButton.load({
+          url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1Xfqn64dqrelW6exqtKnEuEYIs8KGv_EHkroC3JNj_u3DsQaeKaWk6BXP5g5ohwGvvfNUd7K52?gv=true',
+          color: '#039BE5',
+          label: '30 minutes meeting',
+          target,
+        });
+      });
+    })();
+    </script>
+  </div>
+
+</body>
+
+</html>
