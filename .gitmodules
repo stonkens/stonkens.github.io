@@ -5,5 +5,5 @@
 	path = subpages/back2base
 	url = git@github.com:stonkens/back2base.git
 [submodule "subpages/madr"]
-        path = subpages/madr
+	path = subpages/madr
 	url = git@github.com:stonkens/madr.git
