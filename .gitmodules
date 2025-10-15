@@ -1,9 +1,0 @@
-[submodule "subpages/space2time"]
-	path = subpages/space2time
-	url = git@github.com:stonkens/space2time.git
-[submodule "subpages/back2base"]
-	path = subpages/back2base
-	url = git@github.com:stonkens/back2base.git
-[submodule "subpages/madr"]
-	path = subpages/madr
-	url = git@github.com:stonkens/madr.git
